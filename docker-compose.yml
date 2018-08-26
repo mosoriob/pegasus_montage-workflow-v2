@@ -1,0 +1,6 @@
+version: '3'
+services:
+  montage-v2:
+    build: .
+    command: bash /root/run.sh
+    image: mosorio/montagev2:debian9
